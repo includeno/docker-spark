@@ -12,8 +12,8 @@ on: # push operation is operate
 env:
   SPARK_VERSION: "3.1.2"
   HADOOP_VERSION: "3.2.2"
-  TAG_NAME_11: "spark-jdk11:spark-3.1.2-hadoop-3.2.2" #tag 只能小写开头
-  TAG_NAME_8: "spark-jdk8:spark-3.1.2-hadoop-3.2.2" #tag 只能小写开头
+  TAG_NAME_11: "spark-jdk11" #tag 只能小写开头
+  TAG_NAME_8: "spark-jdk8" #tag 只能小写开头
 jobs:
   build:
     name: Github Action Build Docker Images
